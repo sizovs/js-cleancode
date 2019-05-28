@@ -211,7 +211,7 @@ function addItemToCart (cart, item, quantity = 1) {
 
 ### Only comment things that have business logic complexity.
 
-Comments are an apology, not a requirement. Good code _mostly_ documents itself.
+In-line comments should be used sparingly, only where the code is not "self-documenting".
 
 **Bad:**
 
@@ -253,6 +253,8 @@ function hashIt(data) {
 ```
 
 ### Single concept per test
+
+Prefer many small and specific tests over one-size-fits-all monster test.
 
 **Bad:**
 
